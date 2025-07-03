@@ -1,5 +1,3 @@
-# Sentiment Explorer Dashboard
-
 ## Overview
 The **Sentiment Explorer Dashboard** is a Streamlit-based web application designed for analyzing the emotional tone of text data. It supports sentiment analysis using VADER (local, fast) and Hugging Face (API-based, accurate) models, with options for comparing both. The dashboard provides interactive visualizations, keyword extraction, and data export functionalities, all wrapped in a modern, dark-themed UI.
 
