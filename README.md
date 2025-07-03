@@ -6,6 +6,9 @@ The **Sentiment Explorer Dashboard** is a Streamlit-based web application design
 ## Access the Application
 You can access the deployed application [here](https://sentimentanalysisdashboard-ds09.onrender.com/).
 
+## Video Demonstration
+Watch a video demonstration of the application [here](https://capeitinitiative-my.sharepoint.com/:v:/g/personal/lesego_mphahlele_capaciti_org_za/ESrXTxzCrRJCtLdlK9gvF9EBbI20r2HPK6bTaCiWqe--BQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LWTWbx).
+
 ## Features
 - **Text Input**: Supports manual text entry (one item per line) or file uploads (CSV/TXT).
 - **Sentiment Analysis**:
@@ -115,7 +118,7 @@ Additionally, for Hugging Face model usage, you need a valid Hugging Face API to
 - **Model Limitations**:
   - VADER is fast but less accurate, suitable for quick analyses.
   - Hugging Face requires an internet connection and a valid API token for higher accuracy.
-- **Error Handling**: The app includes robust error handling for file uploads, API issues, and analysis failures.
+- **Error Handling**: The app includes robust error handling for file uploads, API issues, and analysis Failures.
 - **Performance**: Processing time depends on the input size and model choice. Hugging Face may be slower due to API calls.
 - **Keyword Extraction**: Requires NLTK's `punkt` and `stopwords` for preprocessing.
 
@@ -133,6 +136,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 - Built with [Streamlit](https://streamlit.io/) for the interactive UI.
-- Uses [VADER](https://github.com/cjhutto/vaderSentiment) for local sentiment analysis.
+- Uses [尾ADER](https://github.com/cjhutto/vaderSentiment) for local sentiment analysis.
 - Integrates [Hugging Face](https://huggingface.co/) for advanced sentiment analysis.
 - Visualizations powered by [Plotly](https://plotly.com/) and [WordCloud](https://github.com/amueller/word_cloud).
